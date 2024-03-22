@@ -28,7 +28,7 @@ export class ListComponent {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: '/assets/vaca2.webp',
+        img: '/assets/img11.webp',
         createdAt: new Date().toISOString()
       },
       {
@@ -36,6 +36,62 @@ export class ListComponent {
         title: 'Camiseta Over Size',
         price: 170000,
         img: '/assets/vaca3.webp',
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: Date.now(),
+        title: 'Camiseta Over Size',
+        price: 170000,
+        img: '/assets/img8.webp',
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: Date.now(),
+        title: 'Camiseta Over Size',
+        price: 170000,
+        img: '/assets/img1.webp',
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: Date.now(),
+        title: 'Camiseta Over Size',
+        price: 170000,
+        img: '/assets/img2.webp',
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: Date.now(),
+        title: 'Camiseta Over Size',
+        price: 170000,
+        img: '/assets/img3.webp',
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: Date.now(),
+        title: 'Camiseta Over Size',
+        price: 170000,
+        img: '/assets/img4.webp',
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: Date.now(),
+        title: 'Camiseta Over Size',
+        price: 170000,
+        img: '/assets/img5.webp',
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: Date.now(),
+        title: 'Camiseta Over Size',
+        price: 170000,
+        img: '/assets/img6.webp',
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: Date.now(),
+        title: 'Camiseta Over Size',
+        price: 170000,
+        img: '/assets/img7.webp',
         createdAt: new Date().toISOString()
       },
       {
@@ -49,14 +105,14 @@ export class ListComponent {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: '/assets/vaca3.webp',
+        img: '/assets/img9.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: '/assets/vaca1.webp',
+        img: '/assets/img10.webp',
         createdAt: new Date().toISOString()
       },
       {
@@ -64,41 +120,6 @@ export class ListComponent {
         title: 'Camiseta Over Size',
         price: 170000,
         img: '/assets/vaca2.webp',
-        createdAt: new Date().toISOString()
-      },
-      {
-        id: Date.now(),
-        title: 'Camiseta Over Size',
-        price: 170000,
-        img: '/assets/vaca1.webp',
-        createdAt: new Date().toISOString()
-      },
-      {
-        id: Date.now(),
-        title: 'Camiseta Over Size',
-        price: 170000,
-        img: '/assets/vaca1.webp',
-        createdAt: new Date().toISOString()
-      },
-      {
-        id: Date.now(),
-        title: 'Camiseta Over Size',
-        price: 170000,
-        img: '/assets/vaca1.webp',
-        createdAt: new Date().toISOString()
-      },
-      {
-        id: Date.now(),
-        title: 'Camiseta Over Size',
-        price: 170000,
-        img: '/assets/vaca1.webp',
-        createdAt: new Date().toISOString()
-      },
-      {
-        id: Date.now(),
-        title: 'Camiseta Over Size',
-        price: 170000,
-        img: '/assets/vaca1.webp',
         createdAt: new Date().toISOString()
       }
     ]
