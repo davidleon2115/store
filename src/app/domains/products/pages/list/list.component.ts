@@ -21,84 +21,84 @@ export class ListComponent {
         id: Date.now(),
         title: 'Camiseta blanca',
         price: 150000,
-        img: 'https://desierto.co/wp-content/uploads/2022/09/Camiseta-Blanca-1.jpg',
+        img: '/assets/vaca1.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca2.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca3.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca4.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca3.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca1.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca2.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca1.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca1.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca1.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca1.webp',
         createdAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Camiseta Over Size',
         price: 170000,
-        img: 'https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174',
+        img: '/assets/vaca1.webp',
         createdAt: new Date().toISOString()
       }
     ]
