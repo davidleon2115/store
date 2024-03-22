@@ -1,0 +1,149 @@
+<button
+  id="dropdownUsersButton"
+  data-dropdown-toggle="dropdownUsers"
+  data-dropdown-placement="bottom"
+  class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1.5 text-center inline-flex items-center transition-colors ease-in duration-200 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+  type="button"
+>
+  <app-cart></app-cart>
+</button>
+
+<!-- Dropdown menu -->
+<div
+  id="dropdownUsers"
+  class="hidden bg-white rounded-lg shadow w-auto min-w-72 dark:bg-gray-800"
+>
+  <div class="flex justify-between px-10 py-3 border-b border-gray-600">
+    <h3 class="text-white font-semibold">Products</h3>
+    <h3 class="text-white font-semibold">price</h3>
+  </div>
+  <ul
+    class="h-48 py-2 overflow-y-auto text-gray-700 dark:text-gray-200"
+    aria-labelledby="dropdownUsersButton"
+  >
+    <li>
+      <a
+        href="#"
+        class="flex items-center justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+      >
+        <div class="flex">
+          <img
+            class="w-6 h-6 me-2 rounded-full"
+            src="https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174"
+            alt="Product"
+          />
+          <p>Camiseta</p>
+        </div>
+        <p>{{ 10000 | currency }}</p>
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+        class="flex items-center justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+      >
+        <div class="flex">
+          <img
+            class="w-6 h-6 me-2 rounded-full"
+            src="https://desierto.co/wp-content/uploads/2022/09/Camiseta-Blanca-1.jpg"
+            alt="Product"
+          />
+          <p>Polo</p>
+        </div>
+        <p>{{ 20000 | currency }}</p>
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+        class="flex items-center justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+      >
+        <div class="flex">
+          <img
+            class="w-6 h-6 me-2 rounded-full"
+            src="https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174"
+            alt="Product"
+          />
+          <p>Product 3</p>
+        </div>
+        <p>{{ 40000 | currency }}</p>
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+        class="flex items-center justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+      >
+        <div class="flex">
+          <img
+            class="w-6 h-6 me-2 rounded-full"
+            src="https://desierto.co/wp-content/uploads/2022/09/Camiseta-Blanca-1.jpg"
+            alt="Product"
+          />
+          <p>Product 4</p>
+        </div>
+        <p>{{ 150000 | currency }}</p>
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+        class="flex items-center justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+      >
+        <div class="flex">
+          <img
+            class="w-6 h-6 me-2 rounded-full"
+            src="https://desierto.co/wp-content/uploads/2022/09/Camiseta-Blanca-1.jpg"
+            alt="Product"
+          />
+          <p>Product 5</p>
+        </div>
+        <p>{{ 29000 | currency }}</p>
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+        class="flex items-center justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+      >
+        <div class="flex">
+          <img
+            class="w-6 h-6 me-2 rounded-full"
+            src="https://libur.com.co/cdn/shop/products/IMG_9896.jpg?v=1681164174"
+            alt="Product"
+          />
+          <p>Product 6</p>
+        </div>
+        <p>{{ 80000 | currency }}</p>
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+        class="flex items-center justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+      >
+        <div class="flex">
+          <img
+            class="w-6 h-6 me-2 rounded-full"
+            src="https://desierto.co/wp-content/uploads/2022/09/Camiseta-Blanca-1.jpg"
+            alt="Product"
+          />
+          <p>Product 1</p>
+        </div>
+        <p>{{ 50000 | currency }}</p>
+      </a>
+    </li>
+  </ul>
+  <div class="flex items-center justify-between border-t border-gray-600">
+    <a
+      href="#"
+      class="flex items-center p-3 text-sm font-medium text-blue-600 border-t border-gray-200 rounded-b-lg bg-gray-50 dark:border-gray-600 hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-blue-500"
+    >
+      <app-bag-icon />
+      Go to Cart
+    </a>
+    <p class="text-white pr-3 font-semibold">
+      Total: <span class="font-normal">{{ 150000 | currency }}</span>
+    </p>
+  </div>
+</div>
