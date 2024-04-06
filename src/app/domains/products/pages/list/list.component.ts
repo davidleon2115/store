@@ -121,6 +121,13 @@ export class ListComponent {
         price: 170000,
         img: '/assets/vaca2.webp',
         createdAt: new Date().toISOString()
+      },
+      {
+        id: Date.now(),
+        title: 'Feo',
+        price: 170000,
+        img: '/assets/vaca2.webp',
+        createdAt: new Date().toISOString()
       }
     ]
 
